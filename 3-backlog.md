@@ -2,9 +2,10 @@
 
 Voici les user stories:
 
--Operateur scan la marchandise
--Operateur consulte le stock disponible
--Cordo créé un OT
--Cordo encode les données d'un nouveau fournisseur
--Cordo annule un OT
--
+- Operateur scan la marchandise
+- Operateur consulte le stock disponible
+- Cordo créé un OT
+- Cordo encode les données d'un nouveau fournisseur
+- Cordo annule un OT
+- service client met à jours les informations des clients/fournisseurs
+
