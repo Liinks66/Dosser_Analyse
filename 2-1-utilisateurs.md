@@ -2,7 +2,7 @@
 
 ## Utilisateurs
 
-Les utilisateurs de l'applications sont :
+Les utilisateurs de l'application sont :
 
 - Opérateur: employé de l'entrepôt responsable entre autre de la reception de la marchandise
 - Coordinateur logistique: personne en charge de la gestion de la marchandise et des fournisseurs
