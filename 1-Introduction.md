@@ -1,6 +1,10 @@
 Dossier d'analyse de l'application warehouse-stock-app
 
-# Contexte
+# Warehouse-stock-app
 
-Dans le cadre du cours de principes d'analyse informatique , j'ai choisis de créé le dossier d'analyse d'une application
-qui permettra de mieux gérer le stock présent en entrepot afin de minimiser au maximum les pertes.
+Dossier d'analyse de l'application warehouse-stock-app permettant de gérer le stock d'un entrepôt.
+
+## Contexte
+
+Vente En Ligne , une jeune entreprise d'e-commerce en forte croissance cherche a professionnaliser son activité.
+Elle a donc fait le choix de se lancer dans le développement d'un WMS qui lui permettra de mieux gérer la traçabilité de son stock présent en entrepôts ainsi que sa valorisation.
