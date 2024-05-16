@@ -1,0 +1,17 @@
+# Coordinateur créer un OT
+En tant que coordinateur logistique j'aimerai pouvoir déplacer la marchandise informatiquement via un OT
+
+## Scénario
+
+## Préconditions
+L'employé est authentifié.
+
+## Scénario - création d'un OT
+- L'employé se rend sur l'onglet 'Ordre de transfert' il peut choisir entre:
+    -Créer un OT retour fournisseurs
+    -Créer un OT intersites
+- L'employé selectionne la marchandise qu'il veut inclure dans son OT avec notamment les critères suivants:
+    -la date d'expédition voulue
+    -l'adresse du site/fournisseur
+    -un commentaire (optionnel)
+
