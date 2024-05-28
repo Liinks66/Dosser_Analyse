@@ -9,7 +9,7 @@ classDiagram
     Employee "1" <--> "0..*" SupplierDetail
     SupplierDetail "1" <--> "0..*" TransferOrder
     Brand "1" <--> "0..*" TransferOrder
-    Employee "1" <--> "1" SupplierDetail
+    Brand "1" <--> "1" SupplierDetail
 
     class Employee {
         id: int
