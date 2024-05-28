@@ -1,2 +1,2 @@
-# repo #
-# test #
+Dans le cadre du cours de principe d'analyse informatique , j'ai choisi de créer le dossier d'analyse d'une application
+qui permettra de mieux gérer le stock présent en entrepôt afin de minimiser au maximum les pertes.
