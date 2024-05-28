@@ -6,4 +6,4 @@ Voici un schéma qui décrit le modèle de base de données utiliser par l'appli
 La table **ProductReference** contient toutes les informations relative aux produits.
 
 
-La table **Employee** contient les toutes les informations relative aux employées.
+La table **Employee** contient toutes les informations relative aux employées.
