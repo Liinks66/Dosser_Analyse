@@ -64,3 +64,22 @@ classDiagram
         id: int
         name: String
     }
+---
+
+
+### Employee
+La classe Employee représente un employé. Ses attributs sont:
+- id : l'identifiant technique permettant de retrouver l'employé dans la DB
+- firstName: prénom
+- lastName : nom de famille
+- mailAddress: email
+- phoneNumber: numéro de téléphone
+- position: le poste de l'employé
+
+
+
+
+
+
+
+ 
