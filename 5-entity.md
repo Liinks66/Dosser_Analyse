@@ -95,9 +95,7 @@ La classe représente un produit. Ses attributs sont:
 - height: la hauteur
 - creationDate: date d'ajout du produit
 - modificationDate: date de modification du produit
-- isActive: permet de savoir si un produit est en vente ou non
-- employeeId: référence vers l'employé qui a scanner le produit
-- modificationEmployeeId: référence vers l'employé qui a modifié le produit   
+- isActive: permet de savoir si un produit est en vente ou non 
 
 ## TransferOrder
 
@@ -108,10 +106,6 @@ La classe TransferOrder représente un OT. Ses attributs sont:
 - modificationDate: date de modification de l'OT
 - comments: commentaire lié à l'OT, il est facultatif
 - isShipped: permets de savoir si un OT a été expédié
-- brandId: référence vers la marque incluse dans l'OT
-- supplierDetailId: référence vers le fournisseur inclus dans l'OT
-- employeeId: référence vers l'employé qui a créé l'OT
-- modificationEmployeeId: référence vers l'employé qui a modifié l'OT
 
 ## SupplierDetail
 
@@ -122,9 +116,6 @@ La classe SupplierDetail représente un fournisseur. Ses attributs sont:
 - isActive: permet de savoir si le fournisseur est actif
 - address: adresse du fournisseur
 - city: ville du fournisseur
-- brandId: référence vers le nom de la marque
-- creationDate: date d'ajout du fournisseur
-- modificationDate: date de modification du fournisseur
 
 ## Brand
 
