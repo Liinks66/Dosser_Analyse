@@ -4,20 +4,20 @@ Les entités de l'application warehouse-stock-app sont:
 
 ```mermaid
 classDiagram
-    Employee "1" <-create-> "0..*" Product
+    Employee "1" <--> "0..*" Product
     Employee "1" <--> "0..*" TransferOrder
     Employee "1" <--> "0..*" SupplierDetail
     SupplierDetail "1" <--> "0..*" TransferOrder
     Brand "1" <--> "0..*" TransferOrder
     Brand "1" <--> "1" SupplierDetail
-    Employee -1----create----*- ManagedObject
-    Employee -1----modify---*- ManagedObject
+    Employee "1.create"<--> "0..*" ManagedObject
+    Employee "1.modify"<--> "0..*" ManagedObject
     ManagedObject <|------ Product
     ManagedObject <|------ SupplierDetail
     ManagedObject <|------ TransferOrder
     Employee "1" <--> "0..*" Product
-    Employee "1" <-modify-> "0..*" SupplierDetail
-    Employee "1" <-modify-> "0..*" TransferOrder
+    Employee "1" <--> "0..*" SupplierDetail
+    Employee "1" <--> "0..*" TransferOrder
 
     class Employee {
         id: int
