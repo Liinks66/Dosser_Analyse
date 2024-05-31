@@ -10,6 +10,14 @@ classDiagram
     SupplierDetail "1" <--> "0..*" TransferOrder
     Brand "1" <--> "0..*" TransferOrder
     Brand "1" <--> "1" SupplierDetail
+    Employee -1----create----*- ManagedObject
+    Employee -1----modify---*- ManagedObject
+    ManagedObject <|------ Product
+    ManagedObject <|------ SupplierDetail
+    ManagedObject <|------ TransferOrder
+    Employee -1---modifiy---*- Product
+    Employee -1---modifiy---*- SupplierDetail
+    Employee -1---modifiy---*- TransferOrder
 
     class Employee {
         id: int
@@ -30,8 +38,7 @@ classDiagram
         creationDate: LocalDate
         modificationDate: LocalDate
         isActive: boolean
-        employeeId: int
-        modificationEmployeeId: int
+        
         
     }
 
@@ -41,10 +48,6 @@ classDiagram
         modificationDate: LocalDate
         comments: String
         isShipped: boolean
-        brandId: int
-        supplierDetailId: int
-        employeeId: int
-        modificationEmployeeId: int
     }
 
        class SupplierDetail {
@@ -53,15 +56,19 @@ classDiagram
         isActive: boolean
         address: String
         city: String
-        brandId: int
-        creationDate: LocalDate
-        modificationDate: LocalDate
         
     }
 
     class Brand{
         id: int
         name: String
+    }
+    class ManagedObject{
+        creationDate: LocalDate
+        modificationDate: LocalDate
+        employeeId: int
+        modificationEmployeeId: int
+
     }
 ```
 
