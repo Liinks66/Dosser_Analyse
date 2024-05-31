@@ -4,7 +4,7 @@ Les entités de l'application warehouse-stock-app sont:
 
 ```mermaid
 classDiagram
-    Employee "1" <--> "0..*" Product
+    Employee "1" <-"create"-> "0..*" Product
     Employee "1" <--> "0..*" TransferOrder
     Employee "1" <--> "0..*" SupplierDetail
     SupplierDetail "1" <--> "0..*" TransferOrder
