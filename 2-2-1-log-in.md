@@ -1,6 +1,10 @@
 # Ecran d'accueil
 
 L'écran de log-in suivant s'affiche au lancement de l'application:
+
+
+
+
 ![écran d'accueil](./images/log-in.png)
 
 

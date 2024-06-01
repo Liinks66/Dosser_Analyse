@@ -1,6 +1,9 @@
 # Menu principale
 
 Après avoir entré ses données d'identification , l'utilisateur voit l'écran suivant apparaitre:
+
+
+
 ![Menu principale](./images/menu-principale.png)
 
 Les menus déroulant suivants apparaissent:
